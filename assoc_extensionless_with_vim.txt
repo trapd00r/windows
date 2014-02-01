@@ -1,0 +1,6 @@
+# vim: ft=dosbatch:
+# run this in cmd.exe, it works in Windows 7
+# all files with no extension will be opened in gvim
+# biio++ and patogen++
+assoc .=txtfile
+ftype txtfile="C:\Program Files (x86)\Vim\vim74\gvim.exe"
