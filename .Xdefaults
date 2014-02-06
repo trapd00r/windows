@@ -1,0 +1,10 @@
+
+Rxvt*background: #000030
+Rxvt*foreground: wheat
+Rxvt*scrollBar_right: true
+Rxvt*saveLines: 1000
+Rxvt*font: 16
+Rxvt*cursorColor: white
+Xterm*background: #000030
+Xterm*foreground: wheat
+
