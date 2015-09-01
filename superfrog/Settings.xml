@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Script [ <!ENTITY SettingsHero SYSTEM "SettingsHero.xml"> ]>
+
+<SettingList>
+  
+  &SettingsHero;
+
+  <StartIn value="Game"/>       <!-- Where to start the game. Default is "Menu", Valid Options: "Menu", "Game", "GameController", "LevelEditor", "FruitMachine", "Endless", "Particles" (Debug Only) -->
+  <StartLevel value="LM11"/>
+  
+  <Filtering value="1"/>
+  <DisplaySplash value="1"/>
+  <DisplayGameIntro value="1"/>
+  <DisplayWorldIntro value="1"/>
+  <DisplayHUD value="1"/>       <!-- Set to Zero to disable HUD rendering, useful for screenshots -->
+
+  <!-- NORMAL GAME START -->
+  <StartLives value="3"/>
+  <MaxLives value="9" />
+  <MaxEnergy value="5" />
+  <MaxHiddenCoins value="5" />
+  <LevelTimeInSeconds value="600" />              <!-- Time given at the start of a level when in normal game mode [Default:240]-->
+  <LevelTimeInSecondsOriginal value="360" />      <!-- Time given at the start of a level when in normal game mode [Default:360]-->
+  <ClockBonusInSeconds value="120" />             <!-- Time given when you collect a clock in normal game mode [Default:60]-->
+  <!-- NORMAL GAME END -->
+
+  <!-- HUD START -->
+  <HUDIntroTime value="750" />              <!-- Time to animate HUD in Milliseconds -->
+  <HUDIntroDelay value="500" />             <!-- Delay to animate HUD in Milliseconds -->
+  <HUDOutroTime value="750" />              <!-- Time to animate HUD out Milliseconds -->
+  <HUDOffsetPerc value="5" />               <!-- Offset Percentage into the screen for the HUD (used for PS3 TRC R030) NB: ONLY WORKS ON PS3 -->
+  <!-- HUD END -->
+
+  <!-- LEVEL EDITOR START -->
+  <LEHazardLimit value="100" />
+  <!-- LEVEL EDITOR END -->
+  
+  <!-- TESTS START -->
+  <TestWind value ="0" />
+  <TestRun value ="1" />
+  <!-- TESTS END -->
+  
+  <!-- CHEATS START -->
+  <StartWithSpud value="1"/>
+  <StartWithWings value="1"/>
+  <InfiniteLives value="0" />
+  <InfiniteTime value="0" />
+  <NoEnemyCollision value="0" />
+  <ExitAlwaysOpen value="1"/>
+  <UnlockAllLevels value="1"/>
+  <UnlockAllBrushes value="1"/>
+  <AlwaysShowTeleport value="0"/>
+  <!-- CHEATS END -->
+  
+  <!-- CAMERA START-->
+  <CameraHeroDecoupled      value="0"/>     <!-- Decouple hero from the camera, 1 = yes, 0 = no meaning the hero is locked to the centre of screen -->
+  <CameraDeadzonePercentage value="45"/>    <!-- If camera is decoupled, this represents the percentage of the screen the hero travels through before camera starts moving -->
+  <CameraCatchupSpeed       value="3"/>     <!-- Speed the camera will catch up when camera is decoupled, higher values faster -->
+  <!-- CAMERA END-->
+
+  <!-- TROPHY START -->
+  <TrophySquisher           value="10" />    <!-- Number of squishers required for SquisherTrophy [Default:10]-->
+  <TrophySuperSquisher      value="101" />   <!-- Number of squishers required for SuperSquisherTrophy [Default:101]-->
+  <TrophyGoldenLilypads     value="24" />    <!-- Number of Golden Lilypads required for Multi Aureus Lilium Trophy [Default:24]-->
+  <TrophyBulgingPurse       value="24" />    <!-- Number of Levels where all coins are collected required for BulgingPurse [Default:24]-->
+  <!-- TROPHY END -->
+  
+  <!-- SCORES START -->
+  <ScoreCoin value="1000" />
+  <ScoreJewelledCrown value="5000" />
+  <ScoreCrown value="1500" />
+  <ScoreDiamond value="900" />
+  <ScoreEmerald value="800" />
+  <ScoreBluestone value="700" />
+  <ScoreGemstones value="650" />
+  <ScoreTigersEye value="600" />
+  <ScoreCherry value="500" />
+  <ScoreApple value="500" />
+  <ScoreBanana value="500" />
+  <ScoreSpud value="100" />
+  <ScoreInvisibility value="100" />
+  <ScoreFrogWings value="100" />
+  <ScoreExtraFrog value="1000" />
+  <ScoreSpeed value="100" />
+  <ScoreRestart value="500" />
+  <TimeBonusMultiplier value="100" />
+  <HighPercentCoinsCollected value="80"/>
+  <!-- SCORES END -->
+  
+  <!-- FRUIT MACHINE START -->
+  <FruitHandleCoEff value="1.75"/>          <!-- Co-efficient for the fruit machine handle. -->
+  <SpinAWin value="20"/>                    <!-- Percentage likelihood a spin will be a win. [1..100]. -->
+  <StartSpins value="3"/>                   <!-- Number of spins user is allowed to start with. -->
+  <NudgeWait value="1000"/>                 <!-- Time to nudge, 1000 = 1 Second. -->
+  <!-- FRUIT MACHINE END -->
+
+  <PaletteTimeout value="2000"/>
+
+</SettingList>
