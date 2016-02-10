@@ -91,12 +91,13 @@ silent! mapclear
 
 nnoremap L     :bNext 2<cr>
 nnoremap H     :bprev 2<cr>
-nnoremap <C-l> :bnext 4<cr>
-nnoremap <C-h> :bprev 4<cr>
+nnoremap <C-l> :bnext<cr>
+nnoremap <C-h> :bprev<cr>
 nnoremap l     :bnext<cr>
 nnoremap h     :bprev<cr>
 "inoremap <C-l> :bnext<cr>
 "inoremap <C-h> :bprev<cr>
+nnoremap <C-w> :tabclose<cr>
 
 "silent map !  b1<cr>
 "silent map \' b2<cr>
@@ -131,7 +132,7 @@ nnoremap ^     :bfirst<cr>
 nnoremap $     :blast<cr>
 
 
-nnoremap <C-w> <esc>
+"nnoremap <C-w> <esc>
 nnoremap <C-q> <esc>:xall
 
 cnoremap <C-k> <Up>
