@@ -1,0 +1,17 @@
+BoldAsColour=yes
+BoldAsFont=yes
+Charset=UTF-8
+Columns=80
+ConfirmExit=no
+CursorBlinks=no
+CursorColour=234,117,0
+CursorType=underscore
+Font=MonteCarlo Fixed 12
+FontHeight=12
+FontSmoothing=none
+ForegroundColour=255,255,255
+Locale=C
+PgUpDnScroll=yes
+Rows=58
+Scrollbar=none
+Term=xterm-256color
